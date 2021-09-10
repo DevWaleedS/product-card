@@ -1,0 +1,109 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: -webkit-pictograph;
+}
+body {
+    background-color: rgb(245, 244, 244);
+}
+ul {
+    list-style:none;
+}
+ul li {
+    display:  inline-block;
+}
+
+.product-card {
+    margin: 100px auto;
+    width: 320px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding-bottom: 30px;
+}
+.product-card img {
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.product-card figcaption {
+    padding: 10px;
+
+}
+.product-card figcaption .main-title {
+    margin-bottom: 20px;
+}
+.product-card figcaption .size , .color {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.product-card figcaption .size  ul li , .color ul li {
+    box-shadow: 1px 1px 2px gray;
+    padding: 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.product-card figcaption .color .red {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+.product-card figcaption .color .green {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+}
+.product-card figcaption .color .blue {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+}
+.product-card h3 {
+    margin-top: 29px;
+    margin-bottom: 16px;
+}
+.product-card h3 + p {
+    color: #333;
+    width: 100%;
+    line-height: 1.6em;
+    margin-bottom: 20px;
+}
+.product-card .buttom-cart , .button-price{
+    background-color: black;
+    color: white;
+    padding: 8px 36px; 
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.buttom-cart  {
+    border-radius: 6px 0 0 6px;
+    -webkit-border-radius: 6px 0 0 6px;
+    -moz-border-radius: 6px 0 0 6px;
+    -ms-border-radius: 6px 0 0 6px;
+    -o-border-radius: 6px 0 0 6px;
+}
+.button-price  {
+    margin-left: 1px;
+    border-radius: 0 6px  6px 0;
+    -webkit-border-radius: 0 6px  6px 0;
+    -moz-border-radius: 0 6px  6px 0;
+    -ms-border-radius: 0 6px  6px 0;
+    -o-border-radius: 0 6px  6px 0;
+}
